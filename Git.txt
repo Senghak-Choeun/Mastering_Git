@@ -1,0 +1,19 @@
+Git & GitHub
+$ git --version:  check version of Git
+$ git config --global user.name 'Senghak': to display name
+$ git config --global user.email 'email': to display email
+$ git config --global init.defaultBranch main: running current file as main branch
+$ git config --list: to inspect project detail & user detail
+$ git add filename.extention
+$ git commit -m 'add filename file'
+$ git status; 
+To add & commit all: 
+use $ git add ./ 
+$ git commit -m 'add filename & filename files'
+$ git log: to see history 
+$ git checkout main: to revert back to the latest 
+or $ git checkout -f main: force to revert to main 
+$ git checkout hash: go back in particular file 
+$ git branch -M main
+$ git remote add origin
+$ git push -u origin main
