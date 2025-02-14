@@ -14,6 +14,6 @@ $ git log: to see history
 $ git checkout main: to revert back to the latest 
 or $ git checkout -f main: force to revert to main 
 $ git checkout hash: go back in particular file 
-$ git branch -M main
-$ git remote add origin
+$ git branch -M main: after creating new project this consider file as a main branch 
+$ git remote add origin; add folder to repo 
 $ git push -u origin main
