@@ -17,3 +17,5 @@ $ git checkout hash: go back in particular file
 $ git branch -M main
 $ git remote add origin
 $ git push -u origin main
+$ git push --set-upstream origin branch-name: for fresh initialing branch to repo
+$ git push -u or git push -u origin brand-name: to push the files in branch
