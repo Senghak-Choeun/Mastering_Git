@@ -20,3 +20,15 @@ $ git push -u origin main
 $ git push --set-upstream origin branch-name: for fresh initialing branch to repo
 $ git push -u or git push -u origin brand-name: to push the files in branch
 $ git push: while make some changes 
+$ git pull: when you merged you branch already - only remote repo is changed - so to update use this command
+
+// How to resolve merged conflict 
+1. FIRST WE NEED TO CHECKOUT MAIN
+$ git checkout main 
+2. SEE OTHER'S  PULL
+$ git pull
+3. CHECKOUT YOUR OWN BRANCH 
+$ git checkout your-branch
+4. FIRST MERGE YOUR BRANCH TO YOUR DESIRE BRANCH 
+$ git merge main
+and you will see conflict in git messages
